@@ -1,0 +1,11 @@
+.bodyDiv {
+  transform: translate(0px, -162px);
+}
+.leaflet-control-container{
+    display: none;
+}
+@media (min-width: 1440px) {
+  .bodyDiv {
+    transform: translate(0px, -75px);
+  }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+#root {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+}
+.FirstContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(/src/assets/pattern-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+@media (min-width: 1440px) {
+  .FirstContainer {
+    background-image: url(/src/assets/pattern-bg-desktop.png);
+  }
+}
