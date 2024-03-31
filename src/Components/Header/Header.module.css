@@ -33,6 +33,7 @@
   border-bottom-left-radius: 0px;
   position: absolute;
   transform: translate(-48px, -1px);
+  cursor: pointer;
 }
 .Arrow:hover {
   background-color: #3f3f3f;
